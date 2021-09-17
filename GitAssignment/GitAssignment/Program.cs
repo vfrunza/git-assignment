@@ -1,4 +1,8 @@
-﻿Console.WriteLine("Biggest prime factor");
+﻿using GitAssignment;
+
+Tests.RunTests();
+
+Console.WriteLine("\nBiggest prime factor of 600851475143");
 
 long n = 600851475143;
 
