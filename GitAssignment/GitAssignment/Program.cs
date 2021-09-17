@@ -2,7 +2,7 @@
 
 long n = 600851475143;
 
-for (long i = n + 1; i > 2; i--)
+for (long i = (long)Math.Sqrt(n) + 1; i > 2; i -= 2)
 {
     //Console.WriteLine("Testing: " + i.ToString());
     if (isPrime(i))
@@ -25,7 +25,7 @@ static bool isPrime(long n)
     {
         return false;
     }
-    for (int i = 5; i <= n + 1; i += 6)
+    for (int i = 5; i <= Math.Sqrt(n) + 1; i += 6)
     {
         if (n % i == 0 || n % (i + 2) == 0)
         {
