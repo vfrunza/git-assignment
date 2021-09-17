@@ -2,6 +2,18 @@
 
 long n = 600851475143;
 
+for (long i = n + 1; i > 2; i--)
+{
+    //Console.WriteLine("Testing: " + i.ToString());
+    if (isPrime(i))
+    {
+        if (n % i == 0)
+        {
+            Console.WriteLine("A Prime Factor of 600851475143 is " + i.ToString());
+        }
+    }
+}
+
 
 static bool isPrime(long n)
 {
