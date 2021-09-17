@@ -16,6 +16,7 @@ namespace GitAssignment
             Console.WriteLine("11 is prime: " + isPrime(11).ToString());
             Console.WriteLine("12 is prime: " + isPrime(12).ToString());
             Console.WriteLine("7561 is prime: " + isPrime(7561).ToString());
+            Console.WriteLine("7562 is prime: " + isPrime(7561).ToString());
         }
 
 
